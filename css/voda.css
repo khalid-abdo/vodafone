@@ -1,0 +1,264 @@
+.row,.d-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#firstnav{
+    font-size: .8rem;
+    color: #e6e6e6;
+    background-color: #333;
+    
+}
+
+#firstnav ul{
+    margin: 0;
+}
+#firstnav a{
+    text-decoration:red !important;
+}
+.arbicbar{
+    margin-top: 3px;
+    justify-content: center;
+}
+.arbicbar a{
+    color: #ccc;
+}
+
+.switcher-link1{
+    color: #ccc;
+    padding: 4px 20px;
+    position: relative;
+    transition: 0.1s 0.1s background-color;
+    transition: 0.1s 0.1s color;
+}
+:hover.switcher-link1{
+    background-color: white;
+}
+.switcher-link1 a{
+    color: #ccc;
+    position: relative;
+    transition: 0.1s 0.1s color;
+    
+}
+.switcher-link1:hover a{
+    color: black;
+}
+.switcher-link11{
+    background-color: white;
+    padding: 4px 20px;
+}
+.switcher-link11 a{
+    
+    color: black;
+}
+/*evry thing about firstnav*/
+#secondnav{
+    box-shadow: 0 2px 2px rgb(231, 224, 224);
+    height: 55px;
+    font-size: 1.34rem;
+    background-color:white;
+    margin-top: 10px;
+}
+#secondnav a{
+    text-decoration-color:red;
+}
+
+.switcher{
+    padding: 3px 20px;
+    margin-left: 0;
+   color: #968b8b !important;
+}
+.switcher2{
+    padding: 3px 20px;
+    margin: 0;
+    justify-content: end;
+    
+}
+
+.secsheitch a{
+    color: #333;
+   
+    
+}
+.secsheitch2 a{
+    font-size: 1.34rem;
+   
+    
+    
+    
+
+}
+.secsheitch .logo{
+       
+       color: #e60000 !important;
+}
+
+.secnavbar-last{
+    justify-content: end;
+    align-items: end;
+    
+}
+/*evry thing about secnavbar*/
+#third{
+    margin-top: 0;
+    padding-top: 0;
+}
+    
+
+    
+
+.fitsrarticl{
+    padding-left: 41px;
+    align-items: center;
+    font-size: 1.33rem;
+    
+    
+}
+.fitsrarticl h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+   
+    
+}
+.firstbutton{
+    background-color: #e60000;
+    color: #e6e6e6;
+    
+    
+}
+/*evry thing about third*/
+#thirdbar{
+    background-image: linear-gradient(to right top,#900,#e60000);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1.3rem;
+    font-family: monospace;
+}
+
+
+#thirdbar h2{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #e6e6e6 !important;
+}
+.firtsticon{
+    font-size: 39px;
+   color: #fff !important;
+}
+#thirdbar .row{
+    padding-block: 20px;
+    display: flex;
+    align-content: center;
+}
+#thirdbar a{
+    text-decoration: none;
+}
+/*evry thing about third bar*/
+#fourth{
+    
+    background-color: #f4f4f4;
+   font-size: 1rem;
+   padding-bottom: 25px;
+}
+#fourth p{
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.card1{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.imgcard1
+{
+    border-radius: 5px;
+}
+.card2{
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
+}
+.card11{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+    
+
+.card11 h5{
+    font-weight:400;
+}
+.card11 a{
+    text-decoration: none;
+    
+}
+/*end of fourth*/
+#fivth{
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+#fivth i{
+    color: #fff;
+}
+
+
+.last-social-media{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.social-media1{
+    margin-left: 1rem;
+   
+}
+.border-1{
+    border: 1px solid #666!important;
+}
+.last-list1{
+    list-style: none;
+    padding: 0;
+}
+.last-title1 a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.last-title1 h4{
+    font-weight: 400;
+}
+
+.last-list1 a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+.last-list11{
+    margin-bottom: 0.3rem;
+}
+.last-list2{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.last-list22{
+    border-right: 1px solid #f4f4f4;
+    padding: 0 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.last-list22 a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-before-end{
+    margin-top: 1.5rem!important;
+}
+/*end of fivth*/
